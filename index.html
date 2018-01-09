@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-ca">
 <head>
-  <title>Things and stuff and junk</title>
+  <title>Shrubbery, etc.</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
@@ -11,21 +11,26 @@
 </head>
 <body>
 
-  <div class="masthead">
-    <div class="wrapper pad-t-1-2 pad-b-1-2 gutter-1-2">
-      <h1 class="push-0">Shrubbery, etc.</h1>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header class="masthead" role="banner">
+    <div class="wrapper gutter-1-2">
+      <h1 class="push-0 pad-t-1-2 pad-b-1-2 ">Shrubbery, etc.</h1>
     </div>
-    <div class="nav">
+    <nav role="navigation" id="nav" tabindex="0">
       <div class="wrapper gutter-1-2">
-        <ol class="mega list-group-inline push-0">
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">About</a></li>
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">Shrubs</a></li>
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">Prices</a></li>
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">News</a></li>
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">Contact</a></li>
+        <ol class="mega list-group-inline push-0 bold">
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#about">About</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#shrubs">Shrubs</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#prices">Prices</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#news">News</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#contact">Contact</a></li>
       </div>
-    </div>
-  </div>
+    </nav>
+  </header>
 
   <div>
     <div class="about push" id="about">
